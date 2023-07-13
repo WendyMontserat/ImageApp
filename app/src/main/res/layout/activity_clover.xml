@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CloverActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/stir"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/clever_ret"
+        android:visibility="invisible">
+
+        <ImageButton
+            android:id="@+id/create"
+            android:layout_width="308dp"
+            android:layout_height="91dp"
+            android:background="#00FFFFFF"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/bryton_one" />
+
+        <ImageButton
+            android:id="@+id/prov_ply"
+            android:layout_width="308dp"
+            android:layout_height="95dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.543"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/create"
+            app:srcCompat="@drawable/bryton_two" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <WebView
+        android:id="@+id/dengi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+</RelativeLayout>

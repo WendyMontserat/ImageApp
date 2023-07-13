@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "468203724835",
+    "project_id": "clover-petal",
+    "storage_bucket": "clover-petal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468203724835:android:cf4b29d1b11fdbc894d196",
+        "android_client_info": {
+          "package_name": "com.bring.cloverpetal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468203724835-2pepp2lubrrjdtb1m1d1kqqmg9thhap6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW0C_htCWe1q0HLDh67G25AhyOKPx9gWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468203724835-2pepp2lubrrjdtb1m1d1kqqmg9thhap6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
